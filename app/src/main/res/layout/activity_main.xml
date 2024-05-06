@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/animalwallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/animalwallpaper1" />
+
+    <Button
+        android:id="@+id/choosepengu"
+        android:layout_width="402dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#A19A90"
+        android:text="pengu the penguin"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/couch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/couch"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/couch"
+        android:layout_width="464dp"
+        android:layout_height="411dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/animalwallpaper"
+        app:srcCompat="@drawable/couch" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="306dp"
+        android:layout_height="145dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Welcome to your animal daycare"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/couch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/animalwallpaper"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/Penguhome"
+        android:layout_width="496dp"
+        android:layout_height="446dp"
+        app:layout_constraintBottom_toBottomOf="@+id/animalwallpaper"
+        app:layout_constraintTop_toTopOf="@+id/animalwallpaper"
+        app:layout_constraintVertical_bias="0.718"
+        app:srcCompat="@drawable/penguhappy"
+        tools:layout_editor_absoluteX="-31dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+For my second imad assignment I was required to develop my own version of the world-famous Tamagotchi app. The original Tamagotchi app has its roots in the late 1990s, emerging from the innovative minds at Bandai, a Japanese toy company. Introduced in 1996(Delgado, 2021), the Tamagotchi quickly became a cultural phenomenon, captivating millions worldwide with its simple yet addictive gameplay. Inspired by the concept of virtual pets, the Tamagotchi was designed to simulate the experience of caring for a digital creature. Users were tasked with nurturing their virtual pet through various stages of life, including feeding, playing, and cleaning up after it. The device featured a compact, egg-shaped design with a small screen and three buttons, making it portable and easy to carry around. The success of the original Tamagotchi spawned numerous iterations and spin-offs over the years, including different designs, themes, and gameplay mechanics. It became a pop culture icon, ingrained in the memories of those who grew up in the '90s.In recent years, ( Delgado, 2021)Bandai has revisited the Tamagotchi concept, releasing mobile apps that capture the nostalgia of the original while adding new features and enhancements for modern audiences. These apps continue to resonate with fans old and new, showcasing the enduring appeal of the virtual pet phenomenon.
+ 
+For my application, I was tasked with the challenge to follow in the footsteps of coders before me and add my own flare to this famous game. I developed my application on Android Studio as it is the emulator that I had the easiest access to while being the most user-friendly and encompassing app developer that I know of. I created my user interface first, I made use of a cartoon animal background to make the interface as friendly and fun as possible. I created an image of a penguin which I affectionately named Pengu. I then inserted my image of Pengu the penguin, above an image of a couch which I strategically placed so that Pengu sits on top of it. 
+I then added a button called “Pengu the penguin” 
+![image](https://github.com/EzraZRNaid00/MyTamagotchi/assets/165680709/ef1ffc34-4036-45aa-a261-7ab025f947d7)
+I created a second activity called "Pengu game page” and assigned the function the “pengu the penguin” button to open the next activity. On the interface of my second activity, I placed a background image of an animated Antarctica as it is directly related to penguins. The Pengu image was then placed above. I then placed 3 buttons, namely: feed button , play button and clean button. These buttons where then color coded to fit the background and placed in a vertical line. A progress bar called “health bar”, I increased its X axis to make it thicker and more legible and it was then placed above the penguin image. This is to depict the penguin's health
+![image](https://github.com/EzraZRNaid00/MyTamagotchi/assets/165680709/78ce4318-337a-473e-8c6c-b986c84360f2)
+I created 3 more activities called; “pengu cleaning”, “pengu feeding”, and “Pengu playing”. Functions where assigned to the corresponding buttons to start up its activity page. When the “play” button is clicked the user will be taken to the “Pengu playing” activity,  when the “feed” button is clicked the user will be taken to the “Pengu feeding” activity and when the “clean” the user will be taken to the “Pengu cleaning”. The additional function of these buttons is to add 10 health to the health bar. This function was not implemented as I could not get said code to run as intended.
+![image](https://github.com/EzraZRNaid00/MyTamagotchi/assets/165680709/c0b99c8e-da50-41b4-8099-3782e52b424f)
+ 
+(MyTamagotchiapp, 2024)
+ An edited image of pengu was placed with a fishing background to tie in penguins natural meal. I added a text view beneath the pengu image to add some character to the page.
+
+
+ 
+(MyTamagotchiapp, 2024)
+An edited image of pengu was added to a cartoon shower background. I placed a text view beneath with a funny caption to keep the user engaged with the app.
+ 
+(MyTamagotchiapp, 2024)
+
+I placed an image of a cartoon soccer ground and then added an edited image of pengu to it. I chose a sports theme as it will be more eye catching to younger users and it makes the app seem more fun than serious. I placed 3 more buttons, one on each activity, and called them “return button 1”, ”return button 2 ”, and ”return button 3”. These buttons where then assigned functions to return the user back to the pengu game page.
+
+My activity that was added is called “pengu dead”. It is activated when the health bar hits 0. On this page its has an edit text to let the user know that their pet has died. There is a restart button that can take the user back to the home page in order to try the game again.
+ 
+(MyTamagotchiapp, 2024)
+
+The background added is an animated cemetery with mentioned buttons.
+
+
+GitHub is a cornerstone platform in the world of software development, offering a collaborative space for coders to share, review, and enhance their projects. At its core, GitHub functions as a version control system, allowing developers to track changes to their codebase over time, collaborate with others seamlessly, and maintain a centralized repository of their work. In my journey of developing an Android application for a Tamagotchi-like experience on Android Studio, GitHub proved to be an invaluable tool. While my project was not a group assessment, GitHub still played a significant role in enhancing my workflow and improving the quality of my work. One of the primary functions of GitHub is its version control capabilities. As I iterated through various features and updates for my Tamagotchi app, GitHub allowed me to maintain a detailed history of changes. Each modification, whether it was adding a new feature, fixing a bug, or refining the user interface, was meticulously recorded in the commit history. This feature provided me with a safety net, allowing me to revert to previous versions of the codebase if needed and ensuring that no progress was ever lost. Moreover, GitHub facilitated seamless collaboration, even in a solo project like mine. Despite working alone, I could leverage GitHub's platform to organize my work efficiently. I utilized branches to experiment with new features or implement fixes without disrupting the main codebase. This modular approach allowed me to isolate changes and test them independently before merging them back into the master branch. Additionally, GitHub's pull request feature enabled me to critically review my code. By submitting pull requests for each significant change, I could thoroughly inspect the modifications, solicit feedback from, and ensure that the quality of my code remained high. Furthermore, GitHub's interface streamlined the process of managing issues and tracking enhancements. I could create detailed descriptions of tasks, assign priorities, and monitor progress effortlessly. This organizational structure kept me focused and allowed me to tackle each aspect of the project systematically. Another noteworthy aspect of GitHub is its collaborative nature beyond coding. While my project primarily involved programming, GitHub's platform supports a wide array of file types, including documentation. I took advantage of this by documenting my code extensively, describing its functionality, usage, and any dependencies. This documentation not only served as a reference for myself but also made my project more accessible to potential contributors or future developers.
+Bibliography
+Delgado, M., 2021. smithsonianmagazine. [Online] 
+Available at: https://www.smithsonianmag.com/innovation/keeping-tamagotchi-alive-180979264/
+[Accessed 12 4 2024].
+
+https://youtu.be/zRW-2LuYA6c
+
+
